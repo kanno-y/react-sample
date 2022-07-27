@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Hello from './compoments/Hello';
 import Parent from './compoments/ContainerSample';
 import Page from './compoments/ContextSample';
+import CounterWrapper from './compoments/Counter';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -15,7 +16,8 @@ root.render(
     {/* <App /> */}
     {/* <Hello /> */}
     {/* <Parent /> */}
-    <Page />
+    {/* <Page /> */}
+    <CounterWrapper />
   </React.StrictMode>
 );
 
