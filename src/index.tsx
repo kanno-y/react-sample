@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { Counter2 } from './compoments/Counter2';
 import { Parent } from './compoments/Parent';
 import './index.css';
 // import App from './App';
@@ -20,7 +21,8 @@ root.render(
     {/* <Parent /> */}
     {/* <Page /> */}
     {/* <CounterWrapper /> */}
-    <Parent />
+    {/* <Parent /> */}
+    <Counter2 />
   </>
   // </React.StrictMode>
 );

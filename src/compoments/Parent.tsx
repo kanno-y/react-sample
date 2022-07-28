@@ -1,4 +1,4 @@
-import React, { memo, useState } from 'react';
+import React, { memo, useCallback, useState } from 'react';
 
 // useCallbackとuseMemoを確認
 
@@ -37,9 +37,9 @@ export const Parent = () => {
 
   // この関数はParentの再描画の度に作成される
   // => 再描画の旅にParentで新しく作られた関数がBuzzに渡されるため
-  const onBuzzClick = () => {
+  const onBuzzClick = useCallback(() => {
     console.log(`Buzzがクリックされました, isBuzz=${isBuzz}`);
-  };
+  }, []);
 
   console.log('Parentが描画');
   return (
