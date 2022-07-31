@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { Clock } from './compoments/Clock';
 import { Counter2 } from './compoments/Counter2';
 import { Parent } from './compoments/Parent';
 import { UseMemoSample } from './compoments/UseMemoSample';
@@ -24,7 +25,8 @@ root.render(
     {/* <CounterWrapper /> */}
     {/* <Parent /> */}
     {/* <Counter2 /> */}
-    <UseMemoSample />
+    {/* <UseMemoSample /> */}
+    <Clock />
   </>
   // </React.StrictMode>
 );
