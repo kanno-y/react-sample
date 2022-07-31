@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { Counter2 } from './compoments/Counter2';
 import { Parent } from './compoments/Parent';
+import { UseMemoSample } from './compoments/UseMemoSample';
 import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -22,7 +23,8 @@ root.render(
     {/* <Page /> */}
     {/* <CounterWrapper /> */}
     {/* <Parent /> */}
-    <Counter2 />
+    {/* <Counter2 /> */}
+    <UseMemoSample />
   </>
   // </React.StrictMode>
 );
