@@ -11,6 +11,7 @@ import reportWebVitals from './reportWebVitals';
 // import Parent from './compoments/ContainerSample';
 // import Page from './compoments/ContextSample';
 // import CounterWrapper from './compoments/Counter';
+import { ContextSample2 } from './compoments/ContextSample2';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -26,7 +27,8 @@ root.render(
     {/* <Parent /> */}
     {/* <Counter2 /> */}
     {/* <UseMemoSample /> */}
-    <Clock />
+    {/* <Clock /> */}
+    <ContextSample2 />
   </>
   // </React.StrictMode>
 );
