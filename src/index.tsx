@@ -12,6 +12,7 @@ import reportWebVitals from './reportWebVitals';
 // import Page from './compoments/ContextSample';
 // import CounterWrapper from './compoments/Counter';
 import { ContextSample2 } from './compoments/ContextSample2';
+import { ImageUploader } from './compoments/ImageUploader';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -28,7 +29,8 @@ root.render(
     {/* <Counter2 /> */}
     {/* <UseMemoSample /> */}
     {/* <Clock /> */}
-    <ContextSample2 />
+    {/* <ContextSample2 /> */}
+    <ImageUploader />
   </>
   // </React.StrictMode>
 );
